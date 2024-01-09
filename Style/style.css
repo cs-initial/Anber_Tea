@@ -1,0 +1,198 @@
+body{
+    text-align: center;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+}
+
+p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Headings and Tagline */
+
+.Big-Heading{
+    font-family: 'Salsa';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.Sub-headings{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.contact-heading{
+    font-family: 'Salsa';
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.tagline{
+    font-family: "Charmonman";
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+/* Title */
+
+#Title{
+    background-color:#fff;
+    padding: 0% 0% 3% 0%;
+     
+}
+
+.title-section{
+    margin-right: 0;
+}
+
+
+.title-text{
+    padding: 25% 0%;
+}
+
+
+.tg-img{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.Tea-Garden{
+    width: 100%;
+   
+}
+
+/* Navbar */
+
+.nav-img{
+    width: 60%;
+}
+
+.navbar-brand{
+    width: 40%;
+}
+
+.nav-img:hover{
+    background-color:rgb(226, 220, 220);
+}
+
+
+.navbar .container-fluid{
+   text-align: left;
+    padding: 0% 4% 0% 5%;
+}
+
+.nav-item{
+    padding: 0 1rem;
+    text-align: right;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.nav-link:hover{
+    background-color: rgb(226, 220, 220);
+    color: #fff;
+}
+
+
+
+/* Product Section */
+
+#Products{
+    background-color: rgb(68, 131, 66);
+    color: #fff;
+    padding: 3% 0%;
+   
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+
+/* Pricing */
+
+#Pricing{
+    padding: 5% 7%;
+    background-color: rgb(195, 255, 195);
+    margin-left: 0;
+}
+
+.card{
+    margin: 5%;
+}
+
+.card-header{
+    background-color: rgb(74, 110, 77);
+    color: #fff;
+}
+
+.card-body{
+    color: #fff;
+    background-color: rgb(157, 184, 135);
+}
+
+
+/* Contact Section */
+
+#Contact{
+    padding: 7% 15%;
+    
+}
+
+.contact-info{
+    margin-top: 5%;
+}
+
+
+.location{
+    font-size: 1rem;
+}
+
+.social-icon{
+    padding: 3%;
+}
+
+/* Footer Secion */
+
+.copyrght{
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(150, 150, 150);
+}
+
+
+
+@media (max-width:990px){
+
+    #Title{
+        text-align: center;
+    }
+
+    .title-text{
+        padding: 10% 0%;
+    }
+    
+    .tg-img{
+        text-align: center;
+    }
+
+    #Contact{
+        padding: 7% 8%;
+        text-align: center;
+    }
+
+    .contact-heading{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+}
